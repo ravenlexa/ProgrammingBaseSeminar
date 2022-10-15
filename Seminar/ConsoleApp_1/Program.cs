@@ -1,11 +1,10 @@
-﻿
+﻿Console.Write("Введите номер дня недели: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+if (numberA == 1)
+{
+    Console.WriteLine("понедельник");
+}
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-int sqrNumber = number * number;
-
-Console.WriteLine($"Квадрат вашего числа = {sqrNumber}");
 
 
 
